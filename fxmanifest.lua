@@ -7,17 +7,17 @@ author 'TinySpriteScripts'
 version '1.0.0'
 
 shared_scripts {
-    'shared/config.lua',
+    'shared/*.lua',
     '@jim_bridge/starter.lua',
-    'database/*.lua',
 }
 
 client_script {
-    'client/main.lua'
+    'client/*.lua'
 }
 
 server_script {
-    'server/main.lua'
+    'database/*.lua',
+    'server/*.lua',
 }
 
 dependency 'jim_bridge'
