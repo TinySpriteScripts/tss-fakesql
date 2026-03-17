@@ -4,7 +4,7 @@ lua54 'yes'
 
 description 'tss-fakesql'
 author 'TinySpriteScripts'
-version '1.0.0'
+version '1.1.0'
 
 shared_scripts {
     'shared/*.lua',
