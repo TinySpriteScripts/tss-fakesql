@@ -1,6 +1,8 @@
 # tss-fakesql
 Lightweight Lua table storage that mirrors common database workflows without MySQL.
 
+## DISCLAIMER: THIS IS AN INCOMPLETE SCRIPT JUST TO SEE IF I COULD DO IT. NOT RECOMMENED TO REPLACE YOUR DATABASE WITH
+
 ## What It Does
 - Stores each "table" as a Lua file in `database/*.lua`
 - Caches loaded tables in memory for fast reads
